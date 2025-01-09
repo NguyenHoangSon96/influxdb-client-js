@@ -1,0 +1,6 @@
+{
+  // enforce prettier on save
+  "editor.formatOnSave": true,
+  // comments in json files are OK
+  "files.associations": {"*.json": "jsonc"}
+}
