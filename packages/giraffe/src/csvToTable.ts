@@ -116,7 +116,7 @@ export const QUERY_MAX_TABLE_LENGTH = 100_000
 /**
  * Creates an accept function that stops processing
  * if the table reaches the specified max rows.
- * @param size - maximum processed rows
+ * @param max - maximum processed rows
  * @returns AcceptRowFunction that enforces that most max rows are processed
  */
 export function acceptMaxTableLength(max: number): AcceptRowFunction {
